@@ -1,0 +1,2 @@
+55 23 * * * ps -eo pid,args | grep "start.py" | awk '{print $1}' | xargs -I {} kill {}
+0 0 * * * python3 /root/stalker/start.py

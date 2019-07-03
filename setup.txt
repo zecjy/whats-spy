@@ -1,0 +1,9 @@
+apt install mysql-server
+apt install apache2
+apt install phpmyadmin
+apt install python3
+apt install python3-setuptools
+apt install python3-dev
+apt install python3-pip
+python3 -m pip install -U cryptography
+python3 -m pip install six==1.10
